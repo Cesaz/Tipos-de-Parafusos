@@ -1,0 +1,45 @@
+body {
+    background-color: #1e1e1e;
+    color: #FFF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #17487d;
+    border-radius: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
