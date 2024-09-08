@@ -1,205 +1,261 @@
 const produtosAgricola = [
     {   
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO NAVALHA QUADRADO",
-        imagem: "",
-        descricao: "São utilizados na fixação das navalhas das colheitadeiras.",
-
-        acabamento: "BICROMATIZADO",
-        sistemaRosca: "MA",
-        rosca: "INTEIRA",
-        tipoCabeça: "QUADRADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 10.9"
+        modelo: "agrícola",
+        nome: "parafuso navalha quadrado",
+        imagem: "images/agricola_01.jpeg",
+        descricao: "são utilizados na fixação das navalhas das colheitadeiras.",
+        acabamento: "bicromatizado",
+        chave: "sem informação",
+        passoRosca: "1",
+        sistemaRosca: "ma",
+        rosca: "inteira",
+        tipoCabeça: "quadrada",
+        material: "aço médio carbono",
+        resistencia: "classe 10.9"
     },
-
+    
     {   
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO NAVALHA ABAULADO RECARTILHADO FENDADO",
-        imagem: "",
-        descricao: "São utilizados na fixação das navalhas das colheitadeiras.",
-
-        acabamento: "BICROMATIZADO",
-        sistemaRosca: "MA",
-        rosca: "INTEIRA",
-        tipoCabeça: "ABAULADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 8.8"
+        modelo: "agrícola",
+        nome: "parafuso navalha abaulado recartilhado fendado",
+        imagem: "images/agricola_02.jpeg",
+        descricao: "são utilizados na fixação das navalhas das colheitadeiras.",
+        acabamento: "bicromatizado",
+        chave: "sem informação",
+        passoRosca: "1",
+        sistemaRosca: "ma",
+        rosca: "inteira",
+        tipoCabeça: "abaulada",
+        material: "aço médio carbono",
+        resistencia: "classe 8.8"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO FRANCES",
-        imagem: "",
-        descricao: "Possuem diversas aplicações, mas são largamente utilizados em máquinas e implementos agrícolas.",
-
-        acabamento: "BICROMATIZADO",
-        sistemaRosca: "MA",
-        rosca: "INTEIRA",
-        tipoCabeça: "LENTILHA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 8.8"
+        modelo: "agrícola",
+        nome: "parafuso frances",
+        imagem: "images/agricola_03.jpeg",
+        descricao: "possuem diversas aplicações, mas são largamente utilizados em máquinas e implementos agrícolas.",
+        acabamento: "bicromatizado",
+        chave: "depende da espessura",
+        passoRosca: "1",
+        sistemaRosca: "ma",
+        rosca: "inteira",
+        tipoCabeça: "lentilha",
+        material: "aço médio carbono",
+        resistencia: "classe 8.8"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO ESTEIRA DE TRATOR",
-        imagem: "",
-        descricao: "UTILIZADO PARA A FIXAÇÃO EM ESTEIRAS DE TRATORES DIVERSOS",
-
-        acabamento: "ENEGRECIDO DE TÊMPERA",
+        modelo: "agrícola",
+        nome: "parafuso esteira de trator",
+        imagem: "images/agricola_04.jpeg",
+        descricao: "utilizado para a fixação em esteiras de tratores diversos",
+        acabamento: "enegrecido de têmpera",
         chave: "15/16",
-        passoRosca: "18 F.P.P",
-        sistemaRosca: "UNF",
-        rosca: "PARCIAL",
-        tipoCabeça: "SEXTAVADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 12.9"
+        passoRosca: "18 f.p.p",
+        sistemaRosca: "unf",
+        rosca: "parcial",
+        tipoCabeça: "sextavada",
+        material: "aço médio carbono",
+        resistencia: "classe 12.9"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO FACA FORRAGEIRA",
-        imagem: "",
-        descricao: "UTILIZADOS PARA A FIXAÇÃO DAS FACAS EM TRITURADORES DE CANA, RAÇÃO, CEREAIS EM GERAL",
-
-        acabamento: "ENEGRECIDO DE TÊMPERA",
+        modelo: "agrícola",
+        nome: "parafuso faca forrageira",
+        imagem: "images/agricola_05.jpeg",
+        descricao: "utilizados para a fixação das facas em trituradores de cana, ração, cereais em geral",
+        acabamento: "enegrecido de têmpera",
         chave: "5/8",
-        passoRosca: "20 F.P.P",
-        sistemaRosca: "UNF",
-        rosca: "PARCIAL",
-        tipoCabeça: "SEXTAVADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "GRAU 5"
+        passoRosca: "20 f.p.p",
+        sistemaRosca: "unf",
+        rosca: "parcial",
+        tipoCabeça: "sextavada",
+        material: "aço médio carbono",
+        resistencia: "grau 5"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO SEXTAVADO P/ESTEIRA",
-        imagem: "",
-        descricao: "UTILIZADO PARA A FIXAÇÃO EM ESTEIRAS DE TRATORES DIVERSOS",
-
-        acabamento: "ENEGRECIDO DE TÊMPERA",
-        chave: "15/16",
-        passoRosca: "18 F.P.P",
-        sistemaRosca: "UNF",
-        rosca: "PARCIAL",
-        tipoCabeça: "SEXTAVADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 12.9"
-    },
-
-    {
-        modelo: "AGRÍCOLA",
-        nome: "CONJUNTO PARA RODA TRATOR",
-        imagem: "",
-        descricao: "É UTILIZADO NA FIXAÇÃO DA RODA TRASEIRA  DE DIVERSOS TRATORES",
-
-        acabamento: "BICROMATIZADO",
+        modelo: "agrícola",
+        nome: "conjunto para roda trator",
+        imagem: "images/agricola_06.jpeg",
+        descricao: "é utilizado na fixação da roda traseira de diversos tratores",
+        acabamento: "bicromatizado",
         chave: "1.1/16",
-        passoRosca: "18 F.P.P",
-        sistemaRosca: "UNF",
-        rosca: "PARCIAL",
-        tipoCabeça: "CILÍNDRICA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "GRAU 5"
+        passoRosca: "18 f.p.p",
+        sistemaRosca: "unf",
+        rosca: "parcial",
+        tipoCabeça: "cilíndrica",
+        material: "aço médio carbono",
+        resistencia: "grau 5"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO ARADO TIPO A3",
-        imagem: "",
-        descricao: "UTILIZADOS EM IMPLEMENTOS AGRÍCOLAS PARA A FIXAÇÃO DOS DISCOS DE ARADO",
-
-        acabamento: "POLIDO",
-        chave: [{}],
-        passoRosca: [{}],
-        sistemaRosca: "UNC",
-        rosca: "INTEIRA",
-        tipoCabeça: "CHATA",
-        material: "AÇO BAIXO CARBONO",
-        resistencia: "SAE J429"
+        modelo: "agrícola",
+        nome: "parafuso arado tipo a3",
+        imagem: "images/agricola_07.jpeg",
+        descricao: "utilizados em implementos agrícolas para a fixação dos discos de arado",
+        acabamento: "polido",
+        chave: "depende da espessura",
+        passoRosca: "depende da espessura",
+        sistemaRosca: "unc",
+        rosca: "inteira",
+        tipoCabeça: "chata",
+        material: "aço baixo carbono",
+        resistencia: "sae j429"
     },
-
+    
     {
-        modelo: "AGRÍCOLA",
-        nome: "PARAFUSO ARADO TIPO B1",
-        imagem: "",
-        descricao: "UTILIZADOS EM IMPLEMENTOS AGRÍCOLAS PARA A FIXAÇÃO DOS DISCOS DE ARADO",
-
-        acabamento: "POLIDO",
-        chave: "",
-        passoRosca: "12 F.P.P",
-        sistemaRosca: "BSW",
-        rosca: "INTEIRA",
-        tipoCabeça: "CHATA",
-        material: "AÇO BAIXO CARBONO",
-        resistencia: "SAE J429"
+        modelo: "agrícola",
+        nome: "parafuso arado tipo b1",
+        imagem: "images/agricola_08.jpeg",
+        descricao: "utilizados em implementos agrícolas para a fixação dos discos de arado",
+        acabamento: "polido",
+        chave: "1/2",
+        passoRosca: "12 f.p.p",
+        sistemaRosca: "bsw",
+        rosca: "inteira",
+        tipoCabeça: "chata",
+        material: "aço baixo carbono",
+        resistencia: "sae j429"
     }
+       
 ];
 
 const produtosAutomotivo = [
     {
-        modelo: "AUTOMOTIVO",
-        nome: "CONJUNTO CARDAN",
-        imagem: "",
-        descricao: "SÃO UTILIZADOS EXCLUSIVAMENTE PARA A FIXAÇÃO DO EIXO CARDAN",
+        modelo: "automotivo",
+        nome: "conjunto cardan",
+        imagem: "images/automotivo_01.jpeg",
+        descricao: "são utilizados exclusivamente para a fixação do eixo cardan",
+        acabamento: "enegrecido de têmpera",
+        chave: "17 mm",
+        passoRosca: "depende da espessura",
+        sistemaRosca: "mb",
+        rosca: "parcial",
+        tipoCabeça: "sextavada",
+        material: "aço médio carbono",
+        resistencia: "classe 10.9"
+    },
+    
+    {
+        modelo: "automotivo",
+        nome: "parafuso auto atarraxante arruelado",
+        imagem: "images/automotivo_02.jpeg",
+        descricao: "utilizados em lataria, para a linha volkswagen",
+        acabamento: "zincado branco",
+        chave: "10 mm",
+        passoRosca: "não possui",
+        sistemaRosca: "autoatarraxante",
+        rosca: "inteira",
+        tipoCabeça: "sextavada",
+        material: "aço baixo carbono",
+        resistencia: "iso 2702"
+    },
+    
+    {
+        modelo: "automotivo",
+        nome: "parafuso sextavado flageado",
+        imagem: "images/automotivo_03.jpeg",
+        descricao: "utilizados no mercado de reposição automotivo, em maquinas e equipamentos industriais",
+        acabamento: "enegrecido de têmpera",
+        chave: "depende da espessura",
+        passoRosca: "depende da espessura",
+        sistemaRosca: "ma",
+        rosca: "parcial",
+        tipoCabeça: "sextavada flangeada",
+        material: "aço médio carbono",
+        resistencia: "classe 8.8"
+    },
+    
+    {
+        modelo: "automotivo",
+        nome: "parafuso sextavado flageado",
+        imagem: "images/automotivo_04.jpeg",
+        descricao: "utilizados no mercado de reposição automotivo, em maquinas e equipamentos industriais",
+        acabamento: "zincado branco",
+        chave: "depende da espessura",
+        passoRosca: "depende da espessura",
+        sistemaRosca: "ma",
+        rosca: "inteira",
+        tipoCabeça: "sextavada flangeada",
+        material: "aço médio carbono",
+        resistencia: "classe 8.8"
+    }  
+]
 
-        acabamento: "ENEGRECIDO DE TÊMPERA",
-        chave: "17 MM",
-        passoRosca: [{}],
-        sistemaRosca: "MB",
-        rosca: "PARCIAL",
-        tipoCabeça: "SEXTAVADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 10.9"
+const produtosConstrucao = [
+    {
+        modelo: "construção",
+        nome: "chumbador parabolt",
+        imagem: "images/construcao_01.jpeg",
+        descricao: "utilizados na construção civil em geral",
+        acabamento: "zincado branco",
+        chave: "depende da espessura",
+        passoRosca: "depende da espessura",
+        sistemaRosca: "unc",
+        rosca: "inteira",
+        tipoCabeça: "não possui",
+        material: "aço baixo carbono",
+        resistencia: "grau 1"
     },
 
     {
-        modelo: "AUTOMOTIVO",
-        nome: "PARAFUSO AUTO ATARRAXANTE ARRUELADO",
-        imagem: "",
-        descricao: "UTILIZADOS EM LATARIA, PARA A LINHA VOLKSWAGEN",
-
-        acabamento: "ZINCADO BRANCO",
-        chave: "10 MM",
-        passoRosca: "",
-        sistemaRosca: "AUTOATARRAXANTE",
-        rosca: "INTEIRA",
-        tipoCabeça: "SEXTAVADA",
-        material: "AÇO BAIXO CARBONO",
-        resistencia: "ISO 2702"
+        modelo: "construção",
+        nome: "chumbador cbc com prisioneiro",
+        imagem: "images/construcao_02.jpeg",
+        descricao: "utilizados na construção civil em geral",
+        acabamento: "zincado branco",
+        chave: "depende da espessura",
+        passoRosca: "20 f.p.p",
+        sistemaRosca: "unc",
+        rosca: "inteira",
+        tipoCabeça: "porca sextavada",
+        material: "aço baixo carbono",
+        resistencia: "grau 1"
     },
 
     {
-        modelo: "AUTOMOTIVO",
-        nome: "PARAFUSO SEXTAVADO FLAGEADO",
-        imagem: "",
-        descricao: "UTILIZADOS NO MERCADO DE REPOSIÇÃO AUTOMOTIVO, EM MAQUINAS E EQUIPAMENTOS INDUSTRIAIS",
-
-        acabamento: "ENEGRECIDO DE TÊMPERA",
-        chave: [{}],
-        passoRosca: [{}],
-        sistemaRosca: "MA",
-        rosca: "PARCIAL",
-        tipoCabeça: "SEXTAVADA FLANGEADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 8.8"
+        modelo: "construção",
+        nome: "chumbador cbc com parafuso",
+        imagem: "images/construcao_03.jpeg",
+        descricao: "utilizados na construção civil em geral",
+        acabamento: "zincado branco",
+        chave: "depende da espessura",
+        passoRosca: "20 f.p.p",
+        sistemaRosca: "unc",
+        rosca: "inteira",
+        tipoCabeça: "sextavada",
+        material: "aço baixo carbono",
+        resistencia: "grau 1"
     },
 
     {
-        modelo: "AUTOMOTIVO",
-        nome: "PARAFUSO SEXTAVADO FLAGEADO",
-        imagem: "",
-        descricao: "UTILIZADOS NO MERCADO DE REPOSIÇÃO AUTOMOTIVO, EM MAQUINAS E EQUIPAMENTOS INDUSTRIAIS",
-
-        acabamento: "ZINCADO BRANCO",
-        chave: [{}],
-        passoRosca: [{}],
-        sistemaRosca: "MA",
-        rosca: "INTEIRA",
-        tipoCabeça: "SEXTAVADA FLANGEADA",
-        material: "AÇO MÉDIO CARBONO",
-        resistencia: "CLASSE 8.8"
+        modelo: "construção",
+        nome: "parafuso sextavado rosca soberba",
+        imagem: "images/construcao_04.jpeg",
+        descricao: "utilizado para fixação de suportes tipo gancho em madeiramento de telhados",
+        acabamento: "zincado",
+        chave: "depende da espessura",
+        passoRosca: "não possui",
+        sistemaRosca: "rosca soberba",
+        rosca: "parcial",
+        tipoCabeça: "sextavada",
+        material: "aço inox",
+        resistencia: "aisi 304"
+    },
+    
+    {
+        modelo: "construção",
+        nome: "parafuso telha ponta 17 com arruela de vedação",
+        imagem: "images/construcao_05.jpeg",
+        descricao: "utilizado para fixação de suportes tipo gancho em madeiramento de telhados",
+        acabamento: "ruspert",
+        chave: "5/16",
+        passoRosca: "não possui",
+        sistemaRosca: "autoperfurante",
+        rosca: "inteira",
+        tipoCabeça: "sextavada flangeada",
+        material: "aço baixo carbono",
+        resistencia: "iso 10666"
     }
 ]

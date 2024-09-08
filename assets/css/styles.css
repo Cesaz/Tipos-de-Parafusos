@@ -1,6 +1,7 @@
 body {
     background-color: #1e1e1e;
     color: #FFF;
+    text-transform: uppercase;
 }
 
 header {
@@ -21,6 +22,14 @@ input {
     text-align: center;
 }
 
+button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #1e1e1e;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -29,9 +38,13 @@ section {
     padding-bottom: 10px;
     align-items: center;
     justify-content: center;
-    background-color: red;
     text-align: center;
-    
+}
+
+.titulo {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .principal {
@@ -39,19 +52,34 @@ section {
     flex-direction: row;
 }
 
+.nome_produto {
+    background-color: #1e1e1e;
+    padding: 10px;
+}
+
+.descricao_produto {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 30px;
+}
+
+.descricao_produto:hover {
+    background-color: #1e1e1e;
+    padding: 30px;
+    opacity: 1;
+}
+
 .geral {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: #17487d;
     margin: 1px;
     padding: 10px;
 }
 
 .produtos {
-    display: flex;
     flex-direction: column;
     margin: 5px;
-    background-color: aqua;
     width: 280px;
     height: 280px;
 }
