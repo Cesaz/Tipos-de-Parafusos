@@ -30,6 +30,17 @@ button {
     border: 2px solid #1e1e1e;
 }
 
+button:hover {
+    background-color: #1e1e1e;
+    color: #FFF;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -55,6 +66,16 @@ section {
 .nome_produto {
     background-color: #1e1e1e;
     padding: 10px;
+}
+
+.nome_produto a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nome_produto a:hover {
+    text-decoration: underline;
+    color: #17487d;
 }
 
 .descricao_produto {
