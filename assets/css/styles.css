@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 body {
     background-color: #1e1e1e;
     color: #FFF;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 header {
@@ -119,4 +124,46 @@ section {
 
 .informacao_2 {
     margin-left: 10px;
+}
+
+.personal_information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17487d;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    background-color: #FFF;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.social img:hover {
+    background-color: #1e1e1e;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #1e1e1e;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 15px;
+}
+
+footer p a:hover {
+    background-color: #FFF;
+    color: #1e1e1e;
 }
